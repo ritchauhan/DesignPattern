@@ -6,7 +6,7 @@ package com.dev.pattern.singleton;
 public class SingletonClass {
 
     // Eager loading singleton
-    private static SingletonClass singletonClass = new SingletonClass();
+    private static final SingletonClass singletonClass = new SingletonClass();
     private String name;
     private SingletonClass() { }
 
